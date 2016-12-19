@@ -1,0 +1,2 @@
+%.deb-exe: $(OFILES)
+	$(CXX) $(LDFLAGS) $@ $(OFILES) $(LIBS)
